@@ -1,0 +1,1 @@
+export const FALLBACK_IMAGE =  '/ais/images/fallback-image.png';
