@@ -17,7 +17,7 @@ const onDelete = () => {
 const deleteTemplate = async () => {
   try {
     await canvasTemplatesStore.deleteCanvasTemplate(props.template.id)
-    ElNotification.error({
+    ElNotification.success({
       message: 'Шаблон було видалено успішно',
     })
     emit('update')
